@@ -1,0 +1,402 @@
+@font-face{
+    font-family: 'NotoItalic';
+    src: url(media/font/mononoki-Bold.ttf);
+}
+html{
+    font-family: NotoItalic;
+}
+.NAV{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+}
+#N{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+    text-decoration: none;
+}
+.ALGO{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1a844f;
+    color: white;
+    border-radius: 10px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin: 1%;
+}
+.ALGO2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    border-radius: 10px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin: 1%;
+}
+.Bronk{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#COM{
+    border: 5px solid white;
+    border-radius: 10px;
+    width: 70%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding: 5%;
+}
+.A{
+    color: #1a844f;
+    text-decoration: none;
+}
+.A:hover{
+    color: #1a844f;
+}
+.A1:hover{
+    color: #1a844f;
+}
+.Forma{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.F{
+    margin: 1%;
+    padding: 1%;
+    text-decoration: none;
+    color: white;
+    font-size: 150%;
+}
+.F:hover{
+    margin: 1%;
+    padding: 1%;
+    text-decoration: none;
+    color: #1a844f;
+    box-shadow: 20px 20px 20px 20 #1a844f;
+    font-size: 150%;
+
+}
+.CF{
+    color: whitesmoke;
+}
+footer{
+    background-color: rgb(19, 19, 19);
+    height: 65%;
+    padding: 3%;
+}
+.Tel{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.Spis{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+.HJ{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: #1a844f;
+    margin: 1%;
+    padding: 1%;
+    border-top: 1px solid #1a844f;
+}
+.SP ul{
+    color: #1a844f;
+}
+.SP h4{
+    text-decoration: none;
+    color: white;
+}
+#lol{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 2px;
+}
+#B{
+    color: #1a844f;
+    background-color: white;
+    border: 1px solid #1a844f;
+    font-size: 110%;
+    border-radius: 10px;
+    text-decoration: none;
+}
+#B:hover{
+    color: white;
+    background-color: #1a844f;
+    border: 1px solid white;
+    font-size: 110%;
+    border-radius: 10px;
+    text-decoration: none;
+}
+#as{
+    color: white;
+    font-size: 110%;
+    text-decoration: none;
+}
+#as:hover{
+    color: white;
+    font-size: 110%;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding-left: 2px;
+    padding-right: 2px;
+    text-decoration: none;
+}
+#Nichto{
+    height: 50px;
+    width: 50px;
+    background-color: #1a844f;
+}
+.IMG{
+    width: 10%;
+}
+.widget1{
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 600px;
+    height: 400px;
+    background-image: url('../media/image/w1.jpg');
+    background-repeat: round;
+    margin: 1%;
+    padding-top: 0%;
+}
+.widget1:hover { /* Эффект при наведении на 1-ю картинку */
+    color: black;
+    transform:scale(102%); /* Трансформация изображения на 360 градусов */
+    filter: saturate(300%); /* Повышение насыщенности цветов изображения на 200% */
+    box-shadow: 0 0 14px 0 #000; /* Тень: Смещение по ширине Смещение по высоте Радиус размытия Растяжение Цвет */
+    transition-duration: .5s; /* Эффект происходит в течение 0,5 секунды */
+}
+.widget1:not(hover) {
+    transform: scale(100%);
+    filter: saturate(100%);
+    transition-duration: .5s;
+}
+.widget2{
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 350px;
+    height: 400px;
+    background-image: url('../media/image/w2.jpg');
+    background-repeat: round;
+    padding-top: 0%;
+}
+.widget2:hover { /* Эффект при наведении на 1-ю картинку */
+    transform:scale(102%); /* Трансформация изображения на 360 градусов */
+    filter: saturate(300%); /* Повышение насыщенности цветов изображения на 200% */
+    box-shadow: 0 0 14px 0 #000; /* Тень: Смещение по ширине Смещение по высоте Радиус размытия Растяжение Цвет */
+    transition-duration: .5s; /* Эффект происходит в течение 0,5 секунды */
+}
+.widget2:not(hover) {
+    transform:scale(100%);
+    filter: saturate(100%);
+    transition-duration: .5s;
+}
+.widget3{
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 350px;
+    height: 400px;
+    background-image: url('../media/image/w3.jpg');
+    background-repeat: round;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    padding-top: 0%;
+}
+.widget3:hover { /* Эффект при наведении на 1-ю картинку */
+    color: black;
+    transform:scale(102%); /* Трансформация изображения на 360 градусов */
+    filter: saturate(300%); /* Повышение насыщенности цветов изображения на 200% */
+    box-shadow: 0 0 14px 0 #000; /* Тень: Смещение по ширине Смещение по высоте Радиус размытия Растяжение Цвет */
+    transition-duration: .5s; /* Эффект происходит в течение 0,5 секунды */
+}
+.widget3:not(hover) {
+    transform:scale(100%);
+    filter: saturate(100%);
+    transition-duration: .5s;
+}
+.widget4{
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 600px;
+    height: 400px;
+    background-image: url('../media/image/w4.jpg');
+    background-repeat: round;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    padding-top: 0%;
+}
+.widget4:hover { /* Эффект при наведении на 1-ю картинку */
+    transform:scale(102%); /* Трансформация изображения на 360 градусов */
+    filter: saturate(300%); /* Повышение насыщенности цветов изображения на 200% */
+    box-shadow: 0 0 14px 0 #000; /* Тень: Смещение по ширине Смещение по высоте Радиус размытия Растяжение Цвет */
+    transition-duration: .5s; /* Эффект происходит в течение 0,5 секунды */
+}
+.widget4:not(hover) {
+    transform:scale(100%);
+    filter: saturate(100%);
+    transition-duration: .5s;
+}
+.WIDGET{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.widget5{
+    text-align: center;
+    border: 1px solid #1a844f;
+    border-radius: 10px;
+    width: 400px;
+    height: 600px;
+    background-image: url('../media/image/m1.png');
+    background-repeat: round;
+    margin: 1%;
+    padding-top: 0%;
+}
+.widget5:hover { /* Эффект при наведении на 1-ю картинку */
+    color: black;
+    transform:scale(102%); /* Трансформация изображения на 360 градусов */
+    box-shadow: 0 0 20px 1 #000; /* Тень: Смещение по ширине Смещение по высоте Радиус размытия Растяжение Цвет */
+    transition-duration: .5s; /* Эффект происходит в течение 0,5 секунды */
+}
+.widget5:not(hover) {
+    transform:scale(100%);
+    transition-duration: .5s;
+}
+.widget6{
+    text-align: center;
+    border: 1px solid #1a844f;
+    border-radius: 10px;
+    width: 600px;
+    height: 400px;
+    background-image: url('../media/image/m2.png');
+    background-repeat: round;
+    margin: 1%;
+    padding-top: 0%;
+}
+.widget6:hover { /* Эффект при наведении на 1-ю картинку */
+    transform:scale(102%); /* Трансформация изображения на 360 градусов */
+    box-shadow: 0 0 20px 1 #000; /* Тень: Смещение по ширине Смещение по высоте Радиус размытия Растяжение Цвет */
+    transition-duration: .5s; /* Эффект происходит в течение 0,5 секунды */
+}
+.widget6:not(hover) {
+    transform:scale(100%);
+    transition-duration: .5s;
+}
+.widget7{
+    text-align: center;
+    border: 1px solid #1a844f;
+    border-radius: 10px;
+    width: 600px;
+    height: 400px;
+    background-image: url('../media/image/m3.png');
+    background-repeat: round;
+    margin: 1%;
+    padding-top: 0%;
+}
+.widget7:hover { /* Эффект при наведении на 1-ю картинку */
+    transform:scale(102%); /* Трансформация изображения на 360 градусов */
+    box-shadow: 0 0 20px 1 #000; /* Тень: Смещение по ширине Смещение по высоте Радиус размытия Растяжение Цвет */
+    transition-duration: .5s; /* Эффект происходит в течение 0,5 секунды */
+}
+.widget7:not(hover) {
+    transform:scale(100%);
+    transition-duration: .5s;
+}
+.widget8{
+    text-align: center;
+    border: 1px solid #1a844f;
+    border-radius: 10px;
+    width: 600px;
+    height: 300px;
+    background-image: url('../media/image/m4.png');
+    background-repeat: round;
+    margin: 1%;
+    padding-top: 0%;
+}
+.widget8:hover { /* Эффект при наведении на 1-ю картинку */
+    transform:scale(102%); /* Трансформация изображения на 360 градусов */
+    box-shadow: 0 0 20px 1 #000; /* Тень: Смещение по ширине Смещение по высоте Радиус размытия Растяжение Цвет */
+    transition-duration: .5s; /* Эффект происходит в течение 0,5 секунды */
+}
+.widget8:not(hover) {
+    transform:scale(100%);
+    transition-duration: .5s;
+}
+.widget9{
+    text-align: center;
+    border: 1px solid #1a844f;
+    border-radius: 10px;
+    width: 600px;
+    height: 650px;
+    background-image: url('../media/image/m5.png');
+    background-repeat: round;
+    margin: 1%;
+    padding-top: 0%;
+}
+.widget9:hover { /* Эффект при наведении на 1-ю картинку */
+    transform:scale(102%); /* Трансформация изображения на 360 градусов */
+    box-shadow: 0 0 20px 1 #000; /* Тень: Смещение по ширине Смещение по высоте Радиус размытия Растяжение Цвет */
+    transition-duration: .5s; /* Эффект происходит в течение 0,5 секунды */
+}
+.widget9:not(hover) {
+    transform:scale(100%);
+    transition-duration: .5s;
+}
+.widget10{
+    text-align: center;
+    border: 1px solid #1a844f;
+    border-radius: 10px;
+    width: 600px;
+    height: 400px;
+    background-image: url('../media/image/m6.png');
+    background-repeat: round;
+    margin: 1%;
+    padding-top: 0%;
+}
+.widget10:hover { /* Эффект при наведении на 1-ю картинку */
+    transform:scale(102%); /* Трансформация изображения на 360 градусов */
+    box-shadow: 0 0 20px 1 #000; /* Тень: Смещение по ширине Смещение по высоте Радиус размытия Растяжение Цвет */
+    transition-duration: .5s; /* Эффект происходит в течение 0,5 секунды */
+}
+.widget10:not(hover) {
+    transform:scale(100%);
+    transition-duration: .5s;
+}
+
+.Sylka{
+    text-decoration: none;
+}
+.Sylka:hover{
+    transform:scale(150%);
+    transition-duration: .5s;
+}

@@ -1,0 +1,43 @@
+.new{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1%;
+}
+.TEXT{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 1%;
+}
+.ALGO{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1a844f;
+    color: white;
+    border-radius: 10px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 1%;
+}
+.FI{
+    width: 746px;
+    height: 560px;
+}
+.ALGO:hover { /* Эффект при наведении на 1-ю картинку */
+    color: white;
+    transform:scale(102%); /* Трансформация изображения на 360 градусов */
+    background-color: rgb(19, 19, 19);
+    box-shadow: 0 0 20px 1 #000; /* Тень: Смещение по ширине Смещение по высоте Радиус размытия Растяжение Цвет */
+    transition-duration: .5s; /* Эффект происходит в течение 0,5 секунды */
+}
+.ALGO:not(hover) {
+    transform:scale(100%);
+    background-color: #1a844f;
+    transition-duration: .5s;
+}
